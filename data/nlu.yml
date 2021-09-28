@@ -1,0 +1,76 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - Bite
+    - Bite se
+    - bite
+    - amakuru
+    - waramutse
+    - wiriwe
+    - bit
+    - yoo
+    - wasap
+    - uraho
+    - waraye
+    - umeze neza
+    - niwane
+    - Uraho
+    - bite man
+    - kiri gute
+    - kiri gute se
+    - gute
+    - mwiriwe
+    - hello
+
+- intent: goodbye
+  examples: |
+    - urabeho
+    - wirirwe neza
+    - wirirwe
+    - umunsi mwiza
+    - igicamunsi cyiza
+    - Urabeho
+    - urakoze
+    - gira amahoro
+
+
+- intent: bot_challenge
+  examples: |
+    - uri bot?
+    - uri umuntu?
+    - ndi kuvugana na bot?
+    - ndi kuvugana n'umuntu?
+    - uri icyahanzwe?
+    - uri irobo?
+    - uri iki?
+    - uri nde?
+    - uri?
+    - who are you?
+    - who I am talking to?
+    - ninde ugukoresha?
+    - witwa nde?
+    - ukora iki?
+
+
+- intent: out_of_scope
+  examples: |
+    - nkeneye amafaranga?
+    - ukorera abande?
+    - ndasha indirimbo?
+    - uba he?
+    - ugira chr?
+    - ukora iki?
+    - wandangira aho nakura amafaranga?
+    - ndashaka amafaranga?
+    - yoo bitch?
+    - wakigoryiwe?
+    - umuswa gusa?
+    - gaswere
+    - gahwere
+    - fuck u
+    - fuck
+    - wamuswawe
+    - uranzi
+    - genda

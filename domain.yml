@@ -1,0 +1,47 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - bot_challenge
+  - out_of_scope
+
+responses:
+  utter_greet:
+  - text: "wiriwe?"
+  - text: "Hey! How are you?"
+  - text: "Bite"
+  - text: "Bite se"
+  - text: "bite"
+  - text: "amakuru"
+  - text: "waramutse"
+  - text: "wiriwe"
+  - text: "uraho"
+  - text: "waraye"
+  - text: "umeze neza"
+  - text: "Uraho"
+  - text: "mwiriwe"
+  - text: "hello"
+
+
+  utter_goodbye:
+  - text: "Wirirwe"
+  - text: "wirirwe"
+  - text: "Urabeho"
+  - text: "igicamunsi cyiza"
+  - text: "umunsi mwiza"
+  - text: "gira amahoro"
+
+  utter_iamabot:
+  - text: "Ndi Bot, nakozwe na Rasa."
+  - text: "Ndi icyahanzwe, cyakozwe na Rasa."
+  - text: "Ndi irobo"
+
+  utter_out_of_scope:
+  - text: "Sinsobanukiwe neza nibyo uvuze, wakosora unvugo."
+  - text: "Koresha imvugo iboneye."
+  - text: "Sinkumva neza"
+
+session_config:
+  session_expiration_time: 60000000
+  carry_over_slots_to_new_session: true
